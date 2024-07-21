@@ -57,7 +57,7 @@ Apache Commons Net
     1. FTPClient: Utilities for working with FTP protocol.
     2. SMTPClient: Utilities for working with SMTP protocol.
     3. TelnetClient: Utilities for working with Telnet protocol.
-    4. These libraries provide a broad range of functionality that can be extremely useful for Java developers, 
+    4. These libraries provide a broad range of functionality that can be extremely useful for Java developers,
     simplifying many common programming tasks.
 
 
