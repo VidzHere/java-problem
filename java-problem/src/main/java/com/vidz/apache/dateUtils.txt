@@ -1,0 +1,35 @@
+Apache Commons DateUtils is part of the Apache Commons Lang library, which provides utilities for manipulating and formatting dates. The DateUtils class offers a variety of static methods for common date and time operations, making it easier to work with Date objects in Java.
+
+Here are some of the key methods provided by DateUtils:
+
+Truncating Dates
+truncate(Date date, int field): Truncates the date to the specified field (e.g., Calendar.DAY_OF_MONTH, Calendar.MONTH).
+
+Rounding Dates
+round(Date date, int field): Rounds the date to the specified field.
+
+Adding and Subtracting Time
+addYears(Date date, int amount): Adds the specified number of years to the date.
+addMonths(Date date, int amount): Adds the specified number of months to the date.
+addDays(Date date, int amount): Adds the specified number of days to the date.
+addHours(Date date, int amount): Adds the specified number of hours to the date.
+addMinutes(Date date, int amount): Adds the specified number of minutes to the date.
+addSeconds(Date date, int amount): Adds the specified number of seconds to the date.
+
+Setting Fields
+setYears(Date date, int amount): Sets the year field of the date to the specified value.
+setMonths(Date date, int amount): Sets the month field of the date to the specified value.
+setDays(Date date, int amount): Sets the day field of the date to the specified value.
+
+Date Comparison
+isSameDay(Date date1, Date date2): Checks if two dates are on the same day.
+isSameInstant(Date date1, Date date2): Checks if two dates are the same to the millisecond.
+isSameLocalTime(Date date1, Date date2): Checks if two dates are the same ignoring the time zone.
+
+Date Conversion
+toCalendar(Date date): Converts a Date object to a Calendar object.
+toDate(Calendar calendar): Converts a Calendar object to a Date object.
+
+Ranges and Iteration
+iterator(Date focus, int rangeStyle): Returns an iterator for the date range defined by the range style (e.g., week, month).
+range(Date start, Date end): Returns a list of dates from start to end inclusive.
